@@ -20,6 +20,7 @@
 		E51442FA22CBA2CB005DDC1D /* kremlin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E51442F522CBA2CB005DDC1D /* kremlin.jpg */; };
 		E51442FB22CBA2CB005DDC1D /* greatWall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E51442F622CBA2CB005DDC1D /* greatWall.jpg */; };
 		E51442FC22CBA2CB005DDC1D /* stonehenge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E51442F722CBA2CB005DDC1D /* stonehenge.jpg */; };
+		E514430122CBAD70005DDC1D /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E514430022CBAD70005DDC1D /* ImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		E51442F522CBA2CB005DDC1D /* kremlin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kremlin.jpg; sourceTree = "<group>"; };
 		E51442F622CBA2CB005DDC1D /* greatWall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = greatWall.jpg; sourceTree = "<group>"; };
 		E51442F722CBA2CB005DDC1D /* stonehenge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stonehenge.jpg; sourceTree = "<group>"; };
+		E514430022CBAD70005DDC1D /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 			children = (
 				E51442C222CBA0F5005DDC1D /* AppDelegate.swift */,
 				E51442C422CBA0F5005DDC1D /* ViewController.swift */,
+				E514430022CBAD70005DDC1D /* ImageViewController.swift */,
 				E51442C622CBA0F5005DDC1D /* Main.storyboard */,
 				E51442FD22CBA2D3005DDC1D /* images */,
 				E51442CC22CBA0F7005DDC1D /* Assets.xcassets */,
@@ -289,6 +292,7 @@
 			files = (
 				E51442CB22CBA0F5005DDC1D /* CityIcon.xcdatamodeld in Sources */,
 				E51442C522CBA0F5005DDC1D /* ViewController.swift in Sources */,
+				E514430122CBAD70005DDC1D /* ImageViewController.swift in Sources */,
 				E51442C322CBA0F5005DDC1D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
