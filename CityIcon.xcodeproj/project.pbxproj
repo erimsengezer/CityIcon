@@ -15,6 +15,11 @@
 		E51442D022CBA0F7005DDC1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E51442CE22CBA0F7005DDC1D /* LaunchScreen.storyboard */; };
 		E51442DB22CBA0F7005DDC1D /* CityIconTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51442DA22CBA0F7005DDC1D /* CityIconTests.swift */; };
 		E51442E622CBA0F7005DDC1D /* CityIconUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51442E522CBA0F7005DDC1D /* CityIconUITests.swift */; };
+		E51442F822CBA2CB005DDC1D /* tacmahal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E51442F322CBA2CA005DDC1D /* tacmahal.jpg */; };
+		E51442F922CBA2CB005DDC1D /* collesium.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E51442F422CBA2CA005DDC1D /* collesium.jpg */; };
+		E51442FA22CBA2CB005DDC1D /* kremlin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E51442F522CBA2CB005DDC1D /* kremlin.jpg */; };
+		E51442FB22CBA2CB005DDC1D /* greatWall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E51442F622CBA2CB005DDC1D /* greatWall.jpg */; };
+		E51442FC22CBA2CB005DDC1D /* stonehenge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E51442F722CBA2CB005DDC1D /* stonehenge.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		E51442E122CBA0F7005DDC1D /* CityIconUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CityIconUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E51442E522CBA0F7005DDC1D /* CityIconUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityIconUITests.swift; sourceTree = "<group>"; };
 		E51442E722CBA0F7005DDC1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E51442F322CBA2CA005DDC1D /* tacmahal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tacmahal.jpg; sourceTree = "<group>"; };
+		E51442F422CBA2CA005DDC1D /* collesium.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = collesium.jpg; sourceTree = "<group>"; };
+		E51442F522CBA2CB005DDC1D /* kremlin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kremlin.jpg; sourceTree = "<group>"; };
+		E51442F622CBA2CB005DDC1D /* greatWall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = greatWall.jpg; sourceTree = "<group>"; };
+		E51442F722CBA2CB005DDC1D /* stonehenge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stonehenge.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +112,7 @@
 				E51442C222CBA0F5005DDC1D /* AppDelegate.swift */,
 				E51442C422CBA0F5005DDC1D /* ViewController.swift */,
 				E51442C622CBA0F5005DDC1D /* Main.storyboard */,
+				E51442FD22CBA2D3005DDC1D /* images */,
 				E51442CC22CBA0F7005DDC1D /* Assets.xcassets */,
 				E51442CE22CBA0F7005DDC1D /* LaunchScreen.storyboard */,
 				E51442D122CBA0F7005DDC1D /* Info.plist */,
@@ -126,6 +137,18 @@
 				E51442E722CBA0F7005DDC1D /* Info.plist */,
 			);
 			path = CityIconUITests;
+			sourceTree = "<group>";
+		};
+		E51442FD22CBA2D3005DDC1D /* images */ = {
+			isa = PBXGroup;
+			children = (
+				E51442F422CBA2CA005DDC1D /* collesium.jpg */,
+				E51442F622CBA2CB005DDC1D /* greatWall.jpg */,
+				E51442F522CBA2CB005DDC1D /* kremlin.jpg */,
+				E51442F722CBA2CB005DDC1D /* stonehenge.jpg */,
+				E51442F322CBA2CA005DDC1D /* tacmahal.jpg */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +257,11 @@
 			files = (
 				E51442D022CBA0F7005DDC1D /* LaunchScreen.storyboard in Resources */,
 				E51442CD22CBA0F7005DDC1D /* Assets.xcassets in Resources */,
+				E51442F822CBA2CB005DDC1D /* tacmahal.jpg in Resources */,
+				E51442F922CBA2CB005DDC1D /* collesium.jpg in Resources */,
+				E51442FB22CBA2CB005DDC1D /* greatWall.jpg in Resources */,
+				E51442FC22CBA2CB005DDC1D /* stonehenge.jpg in Resources */,
+				E51442FA22CBA2CB005DDC1D /* kremlin.jpg in Resources */,
 				E51442C822CBA0F5005DDC1D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
